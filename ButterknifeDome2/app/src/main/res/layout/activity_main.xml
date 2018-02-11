@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fan.butterknife_dome.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="#cf1616"
+        android:textSize="20sp"
+        android:text="@string/tv1"
+        />
+
+    <TextView
+        android:id="@+id/tvS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="#cf1616"
+        android:textSize="20sp"
+        android:text="@string/tv2"
+        />
+    <TextView
+        android:id="@+id/tvss"
+        android:padding="15dp"
+        android:textColor="#cf1616"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv3"
+        />
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bu1"
+        />
+    <Button
+        android:id="@+id/buss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bu2"
+        />
+    <Button
+        android:id="@+id/busss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bu3"
+        />
+    <Button
+        android:id="@+id/bussss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bu4"
+        />
+
+</LinearLayout>
